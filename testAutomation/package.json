@@ -1,0 +1,16 @@
+{
+   "name": "build-skills",
+   "description": "AutomationTests",
+   "author": "Rohit Vatta",
+   "main": "index.js",
+   "version": "0.0.1",
+   "scripts": {
+    "test-e2e": "nightwatch"
+  },
+   "dependencies": {
+      "nightwatch": "0.9.21",
+      "cucumber": "4.2.1",
+      "nightwatch-cucumber": "9.1.2",
+      "chromedriver": "2.40.0"
+   }
+}
